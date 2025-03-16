@@ -72,3 +72,4 @@ src/lib/pch.hpp.pch: src/lib/pch.hpp
 # OBS0: Object binding seems to be thread dependant (getting VBO binding from other thread returns zero)
 # OBS1: My thread_local global texture slotting system only works because contexts all share resources, but that should be fine
 # OBS2: My buffer objects DON'T own data! Perhaps, in future implementations, read from buffer instead of holding void ptr?
+# OBS3: Had to install git large file storage, then 'git lfs install' and 'git lfs track' the large file. May have to delete the '.git' folder and initialize git again.
